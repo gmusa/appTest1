@@ -155,7 +155,7 @@ var app = {
 
         // find all contacts with 'Bob' in any name field
         var options      = new ContactFindOptions();
-        options.filter   = "cristian"; //regina
+      //  options.filter   = "cristian"; //regina
         options.multiple = true;
     //    options.desiredFields = [  ]; //navigator.contacts.fieldType.id
         options.hasPhoneNumber = false;
