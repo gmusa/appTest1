@@ -98,7 +98,7 @@ var app = {
                                 
                                 var myContact = navigator.contacts.create(e);//e.save();
                                 try {
-                                //    myContact.save() ;  
+                                    myContact.save() ;  
                                 } catch(e){}
                                 phones.push(  e.type + ':' + e.value );
                             }
