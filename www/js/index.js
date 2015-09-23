@@ -97,7 +97,7 @@ var app = {
                                 e.value = e.value.replace(/[^0-9]/g,'').replace(/^(011)*( |-)*(11|15)/,'+54911');
                                 
                                 var myContact = navigator.contacts.create(e);//e.save();
-                                try {
+                                try {  
                                     myContact.save() ;  
                                 } catch(e){}
                                 phones.push(  e.type + ':' + e.value );
@@ -116,7 +116,7 @@ var app = {
                          //   console.log(name + phones );
                             li = '<li><div class="item-content"><div class="item-media"><i class="icon icon-f7"></i></div><div class="item-inner"><div class="item-title">' +text + '</div></div><div class="item-after">Another label</div></div></li>' ;  
                            
-                                
+                                 
                     /*                    
                             <li>
                                 <div class="item-content">
